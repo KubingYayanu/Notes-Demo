@@ -102,4 +102,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git # 使用 Git 部署
+  repo: https://github.com/KubingYayanu/Notes-Demo.git # 你的儲存庫 clone
+  branch: gh-pages # 儲存庫分支
